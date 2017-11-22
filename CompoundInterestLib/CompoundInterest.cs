@@ -24,10 +24,10 @@ namespace CompoundInterestLib
             // divide by zero exception when n = 0
             if (n == 0)
             {
-                throw new Exception("Cannot divide by 0 years.");
+                throw new Exception("Cannot divide by 0 time.");
             }
 
-            // negative n throw exception
+            // negative t throw exception
             if (t < 0)
             {
                 throw new Exception("Years cannot be negative.");
